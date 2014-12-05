@@ -1,0 +1,22 @@
+{
+  "name": "node-express-hdb",
+  "version": "0.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jconniff/node-express-hdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jconniff/node-express-hdb/issues"
+  },
+  "homepage": "https://github.com/jconniff/node-express-hdb",
+  "dependencies": {
+    "express": "^4.10.4"
+  }
+}
