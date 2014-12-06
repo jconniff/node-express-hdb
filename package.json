@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jconniff/node-express-hdb",
   "dependencies": {
-    "express": "^4.10.4"
+    "express": "^4.10.4",
+    "express3-handlebars": "^0.5.2"
   }
 }
