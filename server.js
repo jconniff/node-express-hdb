@@ -11,13 +11,13 @@ app.set('view engine', 'handlebars');
 // req = "a request"
 // res = "a response"
 app.get('/', function(req, res){
-	var randNumber = Math.round(Math.random() * 10);
 	//res.send('hello, world');
 	
 	// now with the handlebars stuff from ericf, do res.render(...) instead of res.send(...)
 	//res.render('index');
 
 	// now pass a variable to the renderer
+	var randNumber = Math.round(Math.random() * 10);
 	res.render('index', {
 		randNumber: randNumber
 	});
