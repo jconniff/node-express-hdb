@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>my site</title>
+</head>
+<style>
+.header {
+	background-color: #904090;
+	margin-bottom: 4em;
+	color:#fff;
+	padding: 1em;
+}
+body {
+	margin:0;
+}
+</style>
+<body>
+	<div class="header">
+		This Header is in the file views/layouts/main.handlebars
+	</div>
+
+	{{{ body }}} <!-- Why "body?", jeff asks. -->
+<!-- tripple braces, because double will escape < to &lt -->
+
+</body>
+</html>
